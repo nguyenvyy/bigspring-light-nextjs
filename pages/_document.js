@@ -1,6 +1,7 @@
 import config from "@config/config.json";
 import { Head, Html, Main, NextScript } from "next/document";
 
+
 const Document = () => {
   // destructuring items from config object
   const { favicon } = config.site;
@@ -31,6 +32,7 @@ const Document = () => {
       <script
         type='text/javascript'
         src='//static.klaviyo.com/onsite/js/klaviyo.js?company_id=Vukh2H'
+        defer
       ></script>
       <body>
         <Main />
