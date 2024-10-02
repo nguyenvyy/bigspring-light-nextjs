@@ -28,6 +28,10 @@ const Document = () => {
           content="#000"
         />
       </Head>
+      <script
+        type='text/javascript'
+        src='//static.klaviyo.com/onsite/js/klaviyo.js?company_id=Vukh2H'
+      ></script>
       <body>
         <Main />
         {/* <TwSizeIndicator /> */}
